@@ -1,4 +1,4 @@
-# MySQL Giriş Ders Notu 11
+# MySQL Giriş Ders Notu 1
 
 ### SQL Nedir?
 
