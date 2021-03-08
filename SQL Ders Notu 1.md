@@ -1,8 +1,8 @@
-# MYSQL Giriş Ders Notu
+# MySQL Giriş Ders Notu 1
 
-## Mysql Kurulumu
+## MySQL Kurulumu
 
-Öncelikle [burada belirtilen linkten](https://dev.mysql.com/downloads/windows/installer/8.0.html) mysql indirme sayfasına gidiniz. Burada karşınıza iki tane versiyon çıkacaktır. Bir tanesi düşük boyutlu bir tanesi ise yüksek boyutlu olandır. Burada yüksek boyutlu olan dosyanın yanındaki download butonundan dosyayı indiriyorsunuz.
+Öncelikle [burada belirtilen linkten](https://dev.MySQL.com/downloads/windows/installer/8.0.html) MySQL indirme sayfasına gidiniz. Burada karşınıza iki tane versiyon çıkacaktır. Bir tanesi düşük boyutlu bir tanesi ise yüksek boyutlu olandır. Burada yüksek boyutlu olan dosyanın yanındaki download butonundan dosyayı indiriyorsunuz.
 
 ![Image 1](https://i.imgur.com/jw92hvu.png "Yüksek Boyutlu Dosya")
 
@@ -38,7 +38,7 @@ Bir sonraki adımda da herhangi bir değişiklik yapmadan "NEXT" ile bir sonraki
 
 ![Image 4](https://i.imgur.com/0xSGL85.png "Password")
 
-Bu adımda MYSQL SERVER için bir adet ROOT parolası belirlemeniz gerekmektedir. MySQL Root Password alanına istediğiniz bir şifreyi giriyorsunuz. Daha sonrasında Repeat Password kısmına da MySQL Root Password kısmına girmiş olduğunuz şifreyi tekrardan giriyorsunuz. Eğer iki şifre birbiri ile aynı ise aşağıdaki "NEXT" butonu aktif olacaktır ve bu butona tıklayarak bir sonraki adıma geçebilirsiniz.
+Bu adımda MySQL SERVER için bir adet ROOT parolası belirlemeniz gerekmektedir. MySQL Root Password alanına istediğiniz bir şifreyi giriyorsunuz. Daha sonrasında Repeat Password kısmına da MySQL Root Password kısmına girmiş olduğunuz şifreyi tekrardan giriyorsunuz. Eğer iki şifre birbiri ile aynı ise aşağıdaki "NEXT" butonu aktif olacaktır ve bu butona tıklayarak bir sonraki adıma geçebilirsiniz.
 
 ![Image 4](https://i.imgur.com/1LAkZsK.png "Server Name")
 
@@ -82,4 +82,4 @@ Karşımıza çıkan ekranda "NEXT" butonuna tıklayarak tüm adımları bitireb
 
 ![Image 4](https://i.imgur.com/xhbOVGk.png "FINISH")
 
-Karşımıza çıkan ekranda "FINISH" butonuna tıklayarak kurulumu bitirebilirsiniz. MySQL ve diğer kullanacağımız araçları başarı ile bilgisayarınıza yüklemiş oldunuz. 
+Karşımıza çıkan ekranda "FINISH" butonuna tıklayarak kurulumu bitirebilirsiniz. MySQL ve diğer kullanacağımız araçları başarı ile bilgisayarınıza yüklemiş oldunuz.
