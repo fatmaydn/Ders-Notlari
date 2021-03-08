@@ -1,4 +1,4 @@
-# MySQL Giriş Ders Notu 1
+# MySQL Giriş Ders Notu 2
 
 ## MySQL Kurulumu
 
