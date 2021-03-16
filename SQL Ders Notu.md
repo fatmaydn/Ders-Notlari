@@ -328,7 +328,7 @@ SELECT * FROM dersler WHERE ders_gunu IS NULL;
 
 #### Veri Silme (DELETE FROM "Tablo Adı" WHERE "Koşul")
 ```SQL
-DELETE dersler Where ders_id = 3;
+DELETE dersler WHERE ders_id = 3;
 SELECT * FROM dersler;
 ```
 **DELETE** komutunu koşulsuz kullanmak ya hataya neden olacaktır yada tablodaki tüm verilerin silinmesine neden olacaktır. Bundan dolayı **DELETE** komutunu kullanırken koşul belirtmeyi **unutmayın**.
