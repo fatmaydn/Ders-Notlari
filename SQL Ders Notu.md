@@ -130,8 +130,8 @@ Karşımıza çıkan ekranda "FINISH" butonuna tıklayarak kurulumu bitirebilirs
 SQL dilinde kodları büyük küçük harf duyarsız şekilde yazabilirsiniz ancak bu genellikle tercih edilmeyen bir şeydir. Genel olarak SQL dilinde KOMUTLAR BÜYÜK HARFLER, tablo ve sütunlar küçük harfler ile kodlanırlar daha rahat anlaşılabilmesi için.
 
 ```SQL
-Select * From Ogrenciler; # Tercih edilmeyen kullanım
-SeLEcT * fROm oGreCilER; # Tercih edilmeyen kullanım
+Select * FROM Ogrenciler; # Tercih edilmeyen kullanım
+SeLEcT * FROM oGreCilER; # Tercih edilmeyen kullanım
 
 SELECT * FROM ogrenciler # Tercih edilen kullanım
 "String değerler tek tırnak veya çift tırnak ile gösterilmelidir"
@@ -306,13 +306,13 @@ SELECT DISTINCT ders_id FROM kayitlar;
 ```SQL
 UPDATE kayitlar SET harf_notu = "CB" WHERE id = 1
 
-SELECT * From kayitlar;
+SELECT * FROM kayitlar;
 ```
 **UPDATE** sorgularında **WHERE** koşulu kullanmak oldukça önemlidir. Eğer **WHERE** ile koşul yazılmazsa sütundaki bütün değerler belirtilen değer ile değiştirilir. Bu da geri dönüşü olmayan oldukça büyük bir probleme yol açılmasına neden olmaktadır. Bundan dolayı **UPDATE** komutu dikkatli bir şekilde kullanılmalıdır.
 
 #### Koşul Kullanımı (WHERE, LIKE, %, OR, AND, BETWEEN, IS NOT NULL, IS NULL)
 ```SQL
-SELECT * From ogrenci_bilgileri WHERE kayit_tarihi > "2012.06.16";
+SELECT * FROM ogrenci_bilgileri WHERE kayit_tarihi > "2012.06.16";
 
 SELECT * FROM ogrenci_bilgileri WHERE ogrenci_adi LIKE '%iz' OR ogrenci_id = 2;
 SELECT * FROM kayitlar WHERE ogrenci_id = 1 AND harf_notu = "BB";
