@@ -295,7 +295,7 @@ VALUES ("Regresyon Analizi 1", "2014 - 2015 Güz",NULL);
 INSERT INTO kayitlar (ogrenci_id,ders_id,harf_notu,vize)
 VALUES (1,1,"CC",40),(2,1,"DD",35),(3,1,"AA",90),(1,2,"BB",70);
 
-SELECT * From kayitlar;
+SELECT * FROM kayitlar;
 SELECT ders_id FROM kayitlar;
 SELECT DISTINCT ders_id FROM kayitlar;
 ```
@@ -329,7 +329,7 @@ SELECT * FROM dersler WHERE ders_gunu IS NULL;
 #### Veri Silme (DELETE FROM "Tablo Adı" WHERE "Koşul")
 ```SQL
 DELETE dersler Where ders_id = 3;
-SELECT * From dersler;
+SELECT * FROM dersler;
 ```
 **DELETE** komutunu koşulsuz kullanmak ya hataya neden olacaktır yada tablodaki tüm verilerin silinmesine neden olacaktır. Bundan dolayı **DELETE** komutunu kullanırken koşul belirtmeyi **unutmayın**.
 
