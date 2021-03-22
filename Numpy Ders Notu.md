@@ -84,7 +84,7 @@ Bir 4X4 birim matrisi oluşturup ekranda gösteriniz ve bu matrisin izini hesapl
 
 ```Python
 import numpy as np
-d = np.eye(d, dtype=int)
+d = np.eye(4, dtype=int)
 print(d)
 >[[1 0 0 0]
   [0 1 0 0]
